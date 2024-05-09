@@ -1,0 +1,104 @@
+body {
+  background-color: #fefae0;
+  color: #283618;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-family: "Jura", sans-serif;
+
+}
+h1 {
+  text-align: center;
+  margin: 70px;
+  color: #383027;
+  font-size: 38px;
+  font-family: "Lakki Reddy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.tables {
+  height: auto;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+div {
+  margin: 10px;
+  padding: 10px;
+}
+
+table {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 10px;
+}
+table,
+tr,
+td {
+  background-color: #f8f3ee;
+  padding: 8px;
+  border-collapse: collapse;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  border: 1px solid rgb(177, 128, 128);
+}
+
+table:active {
+  transform: scale(1.2);
+}
+
+.ans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 3px;
+  background-color: #DDA15E;
+  border-color: #78b885;
+  margin: 10px;
+  font-size: 18px;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 700;
+  width: 100px;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:active {
+  background-color: #283618; /* Green background color */
+  color: rgb(231, 220, 220); /* White text color */
+}
+.a{
+  font-size: 30px;
+  margin: 3px;
+  background-color: black;
+}
+#result{
+margin: 0;
+    font-size: 100px;
+    color: #000;
+    font-weight: 300;
+}
+#num{
+  font-size: 30px;
+}
+#start{
+  font-family: "Jura", sans-serif ;
+  font-weight: 800;
+}
+section{padding: 20px;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  background-color: #b6aea6;
+  border-radius: 20px;
+  
+}
